@@ -1,0 +1,9 @@
+dependencies {
+    implementation(project(":logging:logging-slf4j"))
+
+    implementation(project(":modules:electricheater"))
+    implementation(project(":modules:mechanicalpump"))
+    implementation(project(":modules:electricgrinder"))
+    implementation(project(":modules:fancyfilter"))
+    implementation(project(":modules:coffeemaker:maker"))
+}

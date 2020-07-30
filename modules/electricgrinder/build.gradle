@@ -1,0 +1,4 @@
+dependencies {
+    api(project(":modules:coffeemaker:grinder-api"))
+    implementation(project(':logging:logging-api'))
+}

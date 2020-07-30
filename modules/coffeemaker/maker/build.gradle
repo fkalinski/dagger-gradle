@@ -1,0 +1,9 @@
+dependencies {
+    api(project(":modules:coffeemaker:pump-api"))
+    api(project(":modules:coffeemaker:heater-api"))
+    api(project(":modules:coffeemaker:grinder-api"))
+    api(project(":modules:coffeemaker:filter-api"))
+
+    testImplementation(project(":logging:logging-api"))
+    implementation "com.google.code.findbugs:jsr305:1.3.9"
+}
